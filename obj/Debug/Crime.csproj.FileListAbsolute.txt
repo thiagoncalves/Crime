@@ -1,0 +1,6 @@
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Crime\bin\Debug\Crime.exe.config
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Crime\bin\Debug\Crime.exe
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Crime\bin\Debug\Crime.pdb
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Crime\obj\Debug\Crime.csprojAssemblyReference.cache
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Crime\obj\Debug\Crime.exe
+C:\Users\thiago.novaes\Desktop\Thiago\Programing\Crime\obj\Debug\Crime.pdb
