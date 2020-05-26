@@ -19,36 +19,40 @@ namespace Crime
 
             Console.WriteLine("Você telefonou para a vitima?");
             resposta = Console.ReadLine();
-            if (resposta == "sim")
+            if (resposta.ToLower() == "s")
                 somaSim++;
             Console.Clear();
 
             Console.WriteLine("Você esteve no local do crime?");
             resposta = Console.ReadLine();
-            if (resposta == "sim")
+            if (resposta.ToLower() == "s")
                 somaSim++;
             Console.Clear();
 
             Console.WriteLine("Você mora no local do crime?");
             resposta = Console.ReadLine();
-            if (resposta == "sim")
+            if (resposta.ToLower() == "s")
                 somaSim++;
             Console.Clear();
 
             Console.WriteLine("Você devia para a vítima?");
             resposta = Console.ReadLine();
-            if (resposta == "sim")
+            if (resposta.ToLower() == "s")
                 somaSim++;
             Console.Clear();
 
             Console.WriteLine("Você já trabalho com a vitima?");
             resposta = Console.ReadLine();
-            if (resposta == "sim")
+            if (resposta.ToLower() == "s")
                 somaSim++;
             Console.Clear();
 
+            RetornoQtdeSim(somaSim);
 
-            switch (somaSim)
+        }
+        public static void RetornoQtdeSim(int qtde)
+        {
+            switch (qtde)
             {
                 case 1:
                     Console.WriteLine("O entrevistado é Inocente");
@@ -72,7 +76,6 @@ namespace Crime
             }
 
             Console.ReadLine();
-
         }
     }
 }
